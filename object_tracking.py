@@ -6,7 +6,7 @@ import numpy as np
 
 
 def main():
-  cap = cv2.VideoCapture('geese.mp4')
+  cap = cv2.VideoCapture('goose.mp4')
   tracker = Tracker(160, 30, 5, 1)
 
   pause = False
